@@ -1,0 +1,64 @@
+.root {
+    -fx-background-image: url('https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2017/07/nine-dogs-in-grassy-field.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+}
+
+.chart-legend {
+    -fx-text-fill: black;
+}
+
+.chart-title {
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+}
+
+.table-view {
+    -fx-alignment: center;
+}
+
+.axis-label {
+    -fx-text-fill: black;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 15px 32px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 16px;
+    -fx-margin: 4px 2px;
+    -fx-cursor: pointer;
+    -fx-border-radius: 8px;
+}
+
+.chart-legend-item-symbol {
+    -fx-background-radius: 0;
+    -fx-padding: 5px;
+}
+
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
+
+.chart-content {
+    -fx-background-color: white;
+}
+
+.chart-plot-background {
+    -fx-background-color: white;
+}
+
+.label, .chart-legend {
+    -fx-text-fill: black;
+}
