@@ -1,0 +1,4 @@
+# Database Configuration
+database.url=jdbc:mysql://localhost:5208/dogbreedsdatabase
+database.user=root
+database.password=1237
