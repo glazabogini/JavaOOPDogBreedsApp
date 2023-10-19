@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Objects;
+import javafx.scene.image.Image;
 
 public class MainApp extends Application {
 
@@ -25,7 +26,8 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         primaryStage.setTitle("Dog Breeds Analysis");
-
+        // Set the window icon
+        primaryStage.getIcons().add(new Image(MainApp.class.getResourceAsStream("/icon.png")));
         // Fetch data from the Breeds table
         List<DogBreed> breeds = DataQuery.getDogBreeds();
 
